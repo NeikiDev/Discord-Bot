@@ -1,18 +1,18 @@
 const { MessageEmbed } = require("discord.js");
 const { Client } = require("discord.js");
-const client = new Client({ disableMentions: "everyone" });
+const client = new Client
 
 module.exports = {
     name: "help",
-    aliases: ["h"],
-    description: "Alle Commands and Description",
+    aliases: ["h","commands"],
+    description: "All Commands and Description",
     execute(message) {
       let commands = message.client.commands.array();
   
       let helpEmbed = new MessageEmbed()
         .setTitle(`>> ${client.user.username} Help <<`)
         .setDescription("Commands and Descriptions")
-        .setColor("#F8AA2A");
+        .setColor("RANDOM");
   
       commands.forEach((cmd) => {
         helpEmbed.addField(
