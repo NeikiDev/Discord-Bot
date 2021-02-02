@@ -11,7 +11,7 @@ module.exports = {
   
       let helpEmbed = new MessageEmbed()
         .setTitle(`>> ${client.user.username} Help <<`)
-        .setDescription("Lists all Commands")
+        .setDescription("Commands and Descriptions")
         .setColor("#F8AA2A");
   
       commands.forEach((cmd) => {
