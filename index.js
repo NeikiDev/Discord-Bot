@@ -17,13 +17,20 @@ const cooldowns = new Collection();
       
   client.on("ready", () => {
 
-      console.log(`${client.user.username} Connected!`) 
+      console.log(`${client.user.username} Connected!`) // Text in the Console bot Connectes! = "bot-Name connected"
 
   
   
-    client.user.setPresence({ activity: { name: `` , type: "PLAYING" }, status: "online" }).catch(console.error)
+    client.user.setPresence({ activity: { name: `custom-text` , type: "PLAYING" }, status: "online" })
+
+  /* 
+   Custom Bot Activity Status: 
+
+   Name: Your Custom Text 
+   type: "PLAYING" ; "LISTENING" ; "COMPETING" ; "WATCHING" ; "STREAMING" ;  "CUSTOM_STATUS"
+   status: "dnd" ; "online" ; "idle" ; "invisible"
    
-  
+  */
       
       });
   
