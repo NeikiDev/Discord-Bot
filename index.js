@@ -1,4 +1,6 @@
-//version: Title
+const stable_version = require("./package.json")
+
+// version: Current Version = ${stable_version.version}
 
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
@@ -22,7 +24,7 @@ const cooldowns = new Collection();
       
   client.on("ready", () => {
 
-      console.log(`${client.user.username} Connected! | ${ownerID} // ${mainServer}`) // Text in the Console bot Connectes! = "bot-Name connected"
+      console.log(`${client.user.username} Connected! Version: ${stable_version.version} | ${ownerID} // ${mainServer}`) // Text in the Console bot Connectes! = "bot-Name connected"
 
   
   
