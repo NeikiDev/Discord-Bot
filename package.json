@@ -1,0 +1,14 @@
+{
+    "name": "neikidev-discord-bot",
+    "version": "1.0.0",
+    "description": "A Example Discord bot!",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node .",
+      "lint": "eslint ."
+    },
+    "keywords": ["Discord.js","Bot","Example Bot","commands"],
+    "author": "NeikiDev",
+    "license": "LICENSE"
+  }
