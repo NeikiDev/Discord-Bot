@@ -1,3 +1,5 @@
+//version: Title
+
 const { MessageEmbed } = require("discord.js");
 const { Client } = require("discord.js");
 const client = new Client
@@ -27,4 +29,6 @@ module.exports = {
       return message.channel.send(helpEmbed).catch(console.error);
     }
   };
+  
+
   
