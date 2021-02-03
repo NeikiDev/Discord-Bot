@@ -1,6 +1,6 @@
 {
     "name": "neikidev-discord-bot",
-    "version": "1.0.8",
+    "version": "1.1.1",
     "description": "A Example Discord bot!",
     "main": "index.js",
     "scripts": {
