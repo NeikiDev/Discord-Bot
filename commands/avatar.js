@@ -1,4 +1,4 @@
-//version = ?title
+//version = Title (package.json)
 
 const discord = require('discord.js');
 const client = new discord.Client
@@ -22,7 +22,7 @@ const embed = new discord.MessageEmbed()
 message.channel.send(embed)
 
 if (!this.avatar) return null;
-return  message.reply(`There was an error executing that command.`).catch(console.error);
+return message.reply(`There was an error executing that command!`).catch(console.error);
 
 
 }
