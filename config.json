@@ -3,6 +3,7 @@
     "TOKEN": "your-discord-bot-id",
     "PREFIX": "!",
     "PRUNING": false,
-    "OWNERID": "your-discord-id"
+    "OWNERID": "your-discord-id",
+    "ServerID": "main-server-id"
 
 }
