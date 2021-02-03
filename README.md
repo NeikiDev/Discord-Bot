@@ -1,13 +1,23 @@
-# Discord-Bot
+# Discord-Bot by Neiki
 
-Discord Bot Example!
-
-Commands & Index
+Discord Example Bot
 
 
-Bot made with Node.js (Discord.js)
+Discord Example bot make with Discord.js (Node.js)
+
+Reposit Content:
+
+Easy & Example commands in Discord.js
+
+Index.js (Main File)
+Config.json (config File)
+
+Folder: Commands = All commands for the Bot
+
+Help Command = Displays all Commands and Help for the Bot
 
 
-Main File: Index.js | Config File: config.json
 
-folder Commands: Example & Easy Commands
+More Commands soon! Join Discord for Updates.
+
+Discord: https://discord.gg/3C9J98nnbN
