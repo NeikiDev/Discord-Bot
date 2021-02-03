@@ -6,6 +6,9 @@ const { join } = require("path");
 const { TOKEN, PREFIX } = require("./config.json");
 const config = require("./config.json");
 
+const ownerID = config.OWNERID
+const mainServer = config.ServerID
+
 const client = new Client({ disableMentions: "everyone" });
 
 client.login(TOKEN);
@@ -19,7 +22,7 @@ const cooldowns = new Collection();
       
   client.on("ready", () => {
 
-      console.log(`${client.user.username} Connected!`) // Text in the Console bot Connectes! = "bot-Name connected"
+      console.log(`${client.user.username} Connected! | ${ownerID} // ${mainServer}`) // Text in the Console bot Connectes! = "bot-Name connected"
 
   
   
