@@ -24,7 +24,7 @@ const cooldowns = new Collection();
       
   client.on("ready", () => {
 
-      console.log(`${client.user.username} Connected! Version: ${stable_version.version} | ${ownerID} // ${mainServer}`) // Text in the Console bot Connectes! = "bot-Name connected"
+      console.log(`${client.user.username} Connected! Version: ${stable_version.version}`) // Text in the Console bot Connectes! = "bot-Name connected"
 
   
   
