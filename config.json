@@ -4,7 +4,8 @@
     "PREFIX": "!",
     "PRUNING": false,
     "OWNERID": "your-discord-id",
-    "ServerID": "main-server-id"
+    "ServerID": "main-server-id",
+    "version": "package.json/version"
 
 
     
